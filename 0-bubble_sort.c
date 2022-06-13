@@ -1,12 +1,12 @@
 #include "sort.h"
 /**
- * @bubble_sort - sorts an array of integers using the Bubble sort algorithm
+ * bubble_sort - sorts an array of integers using the Bubble sort algorithm
  * @array: unsorted integers array
  * @size: array size
  */
 void bubble_sort(int *array, size_t size)
 {
-    unsigned int count = 0, value = 0; 
+	unsigned int count = 0, value = 0;
 	int aux;
 
 	if (size < 2)
@@ -22,7 +22,7 @@ void bubble_sort(int *array, size_t size)
 				array[value] = array[value + 1];
 				array[value + 1] = aux;
 				print_array(array, size);
-            }
-        }
-    }
+			}
+		}
+	}
 }
