@@ -26,9 +26,8 @@ void bubble_sort(int *array, size_t size);
 void selection_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void quick_sort(int *array, size_t size);
-void lomutoPartition(int *array, unsigned int start, unsigned int end);
-int partition(int *array, size_t size, int start, int end);
-void quick_sort_recurse(int *array, size_t size, int start, int end);
+int lomutoPartition(int *array, size_t size, int start, int end);
+void quickSortRecursion(int *array, size_t size, int start, int end);
 void quick_sort(int *array, size_t size);
 
 #endif
